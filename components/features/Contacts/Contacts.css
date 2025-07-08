@@ -1,0 +1,94 @@
+.contacts__container {
+    width: 100%;
+    background: var(--color__secundario);
+    margin: var(--spacing__sm) 0;
+    padding: var(--spacing__md) var(--spacing__xl);
+    display: flex;
+    justify-content: center;
+}
+
+.contacts__box {
+    flex: 1;
+    display: flex;
+    min-height: 80dvh;
+    gap: var(--spacing__lg);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contacts__form {
+    flex: 1;
+}
+
+.contacts__form__title__container {
+    width: 100%;
+    text-align: center;
+}
+
+.contacts__form__data {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing__sm);
+}
+
+/* Inputs */
+.contacts__form__name,
+.contacts__form__mail {
+    flex: 1 1 250px; /* crece, achica, mínimo 250px */
+    padding: var(--spacing__sm);
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color__primario);
+    aspect-ratio: 3 / 1; /* más ancho que alto */
+}
+
+.contacts__form__button__container {
+    width: 100%;
+    padding: var(--spacing__md) 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts__form__button {   
+    background-color: var(--color__primario);
+    color: var(--color__secundario);
+    border: none;
+    padding: var(--spacing__xs) var(--spacing__sm);
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+/* Textarea ocupa todo abajo */
+.contacts__form__message {
+    flex: 1 1 100%;
+    padding: var(--spacing__sm);
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color__primario);
+    aspect-ratio: auto; /* no le forces proporción */
+    min-height: 150px;
+    resize: vertical;
+}
+.contacts__image__container {
+    flex: 1 1 300px; /* crece, achica, parte de 300px */
+    max-width: 500px;
+    min-width: 208px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

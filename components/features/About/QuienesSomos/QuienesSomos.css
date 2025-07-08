@@ -1,0 +1,19 @@
+.about__quienes__somos__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(255, 2255, 255, .6);
+    padding: var(--spacing__md);
+    gap: var(--spacing__sm);
+}
+
+.about__quienes__somos__title__container,
+.about__quienes__somos__description__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about__quienes__somos__description {
+    text-align: center;
+}

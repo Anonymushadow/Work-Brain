@@ -1,0 +1,40 @@
+.home__charlas__container {
+    padding: var(--spacing__lg) 0;
+    background: var(--color__primario);
+}
+
+.home__charlas {
+    background: var(--color__secundario);
+    width: 100%;
+    display: flex;
+}
+
+.home__charlas__img__Container {
+    flex: 2;
+}
+
+.home__charlas__content__Container {
+    flex: 3;
+    padding: var(--spacing__md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing__md);
+    justify-content: center;
+}
+
+.home__charlas__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home__charlas__button {    
+    background-color: var(--color__cta);
+    color: var(--color__secundario);
+    border: none;
+    padding: var(--spacing__xs) var(--spacing__sm);
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 140px;
+    transition: background-color 0.3s;
+}
