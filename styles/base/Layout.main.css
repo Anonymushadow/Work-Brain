@@ -52,12 +52,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: url(/public/images/Generic/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
   padding: var(--spacing__sm);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url(/public/images/Generic/background.png) center/cover no-repeat;
+  z-index: -1;
+  pointer-events: none;
 }
 
 /* ------------------------------------------------------------------------------------ */
