@@ -1,11 +1,11 @@
 .portfolio__container {
     display: flex;
     flex-direction: column;
-    background: #ffffff98;
+    background: rgba(255, 255, 255, 0.596);
     height: 100%;
-    margin: var(--spacing__sm);
-    padding: var(--spacing__md);
-    gap: var(--spacing__md);
+    margin: var(--spacing__sm) 0;
+    padding: var(--spacing__lg);
+    gap: var(--spacing__lg);
 }
 
 .portfolio__title__container {
@@ -34,8 +34,8 @@
 .portfolio__projects__container {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--spacing__md);
-    justify-content: center;
+    gap: var(--spacing__lg);
+    justify-content: space-evenly;
 }
 
 .portfolio__project__card {

@@ -11,6 +11,7 @@ export const Team = ()=> {
                     </div>
                     <div class="about__team__card__data__container">
                         <h4 class="about__team__card__data__title">${member.name}</h4>
+                        <h5 class="about__team__card__data__rol">${member.rol}</h5>
                         <p class="about__team__card__data__description">${member.description}</p>
                     </div>
                 </div>

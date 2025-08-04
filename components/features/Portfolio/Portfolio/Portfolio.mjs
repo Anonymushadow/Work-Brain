@@ -19,7 +19,7 @@ export const PortfolioComponent = ()=> {
                     </div>
                 </div>
             `
-        ));
+        )).join("");
     }
 
     return `

@@ -4,7 +4,7 @@
     flex-direction: column;
     width: 100%;
     padding: var(--spacing__lg);
-    gap: var(--spacing__sm);
+    gap: var(--spacing__lg);
     align-content: center;
     margin: var(--spacing__sm) 0;
 }
@@ -27,7 +27,7 @@
     background: var(--color__secundario);
     border-radius: 10px;
     overflow: hidden;
-    width: 300px;
+    width: 250px;
     transition: transform 0.3s ease;
 }
 
@@ -50,6 +50,10 @@
     flex-direction: column;
     gap: var(--spacing__sm);
     text-align: center;
+}
+
+.about__team__card__data__rol {
+    color: #a0a0a0;
 }
 
 @media screen and (max-width: 400px) {

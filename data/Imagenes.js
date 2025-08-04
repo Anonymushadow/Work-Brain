@@ -6,7 +6,24 @@ export const Imagenes = {
     },
     home: {
         header: `${base}/Home/home_header.jpg`,
-        firmas: `${base}/Home/home_firmas.jpg`
+        carrousel: [
+            {
+                src: `${base}/Home/home_firmas.jpg`,
+                alt: "Firmas"
+            },{
+                src: `${base}/Home/a.jpg`,
+                alt: "A"
+            },{
+                src: `${base}/Home/b.jpg`,
+                alt: "B"
+            },{
+                src: "https://picsum.photos/id/1018/800/600",
+                alt: "Example"
+            },{
+                src: "https://picsum.photos/id/1015/800/600",
+                alt: "Example 2"
+            }
+        ]
     },
     about: [
         `${base}/About/w@b_image.png`,

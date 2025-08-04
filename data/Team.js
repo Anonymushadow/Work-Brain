@@ -7,19 +7,19 @@ export const TeamData = [
     },
     {
         name: "Nahuel Claudel",
-        rol: "Desarrollador Fullstack & Creador de Experiencias Digitales",
+        rol: "Desarrollador Fullstack",
         description: "Autodidacta y Fundador de Death Wolf Company",
         img: 1
     },
     {
         name: "Cecilia Deanes",
-        rol: "Instrumentadora Quirurjica, Estudiante de Ingeniera Mecatronica",
+        rol: "Instrumentadora Quirurjica, Ingeniera Mecatronica",
         description: "",
         img: 2
     },
     {
         name: "Sebastian Pacheco",
-        rol: "",
+        rol: "Ingeniero Mecatronico",
         description: "",
         img: 3
     }
