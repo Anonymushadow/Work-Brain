@@ -4,10 +4,11 @@ import { Contacts } from "/pages/Contacts/Contacts.mjs";
 import { iniciarContacto } from "/components/features/Contacts/Contacts.mjs";
 import { Portfolio } from "/pages/Portfolio/Portfolio/Portfolio.mjs";
 import { ProjectNavbar } from "/components/features/Portfolio/ProjectNavbar/ProjectNavbar.mjs"
-import { navLinks } from "/data/Portfolio.js";
+import { navLinks, InformationData } from "/data/Portfolio.js";
 import { VideosRender } from "/components/features/Portfolio/Videos/Videos.mjs";
 import { videoSources } from "/data/videos.mjs";
 import { iniciarCarrousel } from "/components/features/Home/HomeCarrouselController/HomeCarrouselController.mjs";
+import { InformationComponent } from "/components/features/Portfolio/Informacion/Informacion.mjs";
 
 
 export const handleRoute = () => {
@@ -65,7 +66,7 @@ export const handleRoute = () => {
                             
                             // #/PORTFOLIO/PROTESIS/INFORMACION 
                             case "informacion":
-                                subcontainer.innerHTML += "<h1>Informacion</h1>";
+                                subcontainer.innerHTML += InformationComponent(InformationData.protesis);
                                 break;
                                 
                             // #/PORTFOLIO/PROTESIS/VIDEOS

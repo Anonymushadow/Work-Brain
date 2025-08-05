@@ -28,6 +28,7 @@ export const Imagenes = {
     about: [
         `${base}/About/w@b_image.png`,
         `${base}/About/dwc_image.jpg`,
+        `${base}/About/cecilia_image.png`,
     ],
     portfolio: {},
     contacts: {}

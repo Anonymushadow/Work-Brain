@@ -1,0 +1,25 @@
+.info__section {
+    width: 100%;
+    padding: var(--spacing__md) var(--spacing__xl);
+}
+
+.info__section__title {
+    width: 100%;
+    text-align: center;
+}
+
+.info__section__subtitle {
+    margin: var(--spacing__md) 0 var(--spacing__sm) 0;
+}
+
+.info__section__label {
+    font-weight: bold;
+}
+
+.info__section__ul {
+    list-style: disc !important;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing__sm);
+}

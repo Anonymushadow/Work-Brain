@@ -8,7 +8,7 @@ export const TeamData = [
     {
         name: "Nahuel Claudel",
         rol: "Desarrollador Fullstack",
-        description: "Autodidacta y Fundador de Death Wolf Company",
+        description: "Fundador de Death Wolf Company",
         img: 1
     },
     {
