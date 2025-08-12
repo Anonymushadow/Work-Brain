@@ -19,7 +19,7 @@ export const TeamData = [
     },
     {
         name: "Sebastian Pacheco",
-        rol: "Ingeniero Mecatronico",
+        rol: "Técnico Electromecánico",
         description: "",
         img: 3
     }
