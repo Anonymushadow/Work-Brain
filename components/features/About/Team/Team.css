@@ -41,7 +41,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block
+    display: block;
 }
 
 .about__team__card__data__container {

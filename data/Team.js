@@ -1,14 +1,14 @@
 export const TeamData = [
     {
         name: "Lucas Diaz",
-        rol: "Proyect Manager",
+        rol: "Proyect Manager y Bioengeniero",
         description: "Fundador de Work@Brain",
         img: 0
     },
     {
         name: "Nahuel Claudel",
         rol: "Desarrollador Fullstack",
-        description: "Fundador de Death Wolf Company",
+        description: "Fundador de Death Wolf Company, Colaborador en Work@Brain",
         img: 1
     },
     {

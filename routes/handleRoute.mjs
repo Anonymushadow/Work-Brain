@@ -81,7 +81,6 @@ export const handleRoute = () => {
                         }
                     }, 0); // Esperás a que `main.innerHTML = Portfolio()` termine
                     break;
-
                 case "programacion":
                     main.innerHTML = Portfolio();
                     setTimeout(() => {
@@ -103,7 +102,7 @@ export const handleRoute = () => {
                                 handleRoute();
                                 return;
                             case "informacion":
-                                subcontainer.innerHTML += "<h3>Información</h3>";
+                                subcontainer.innerHTML += InformationComponent(InformationData.programacion);
                                 break;
                             case "videos":
                                 subcontainer.innerHTML += VideosRender(videoSources.programacion);
@@ -136,7 +135,7 @@ export const handleRoute = () => {
                                 handleRoute();
                                 return;
                             case "informacion":
-                                subcontainer.innerHTML += "<h3>Información</h3>";
+                                subcontainer.innerHTML += InformationComponent(InformationData.componentes);
                                 break;
                             case "videos":
                                 subcontainer.innerHTML += VideosRender(videoSources.componentes);
@@ -169,7 +168,7 @@ export const handleRoute = () => {
                                 handleRoute();
                                 return;
                             case "informacion":
-                                subcontainer.innerHTML += "<h3>Información</h3>";
+                                subcontainer.innerHTML += InformationComponent(InformationData.impresion3d);
                                 break;
                             case "videos":
                                 subcontainer.innerHTML += VideosRender(videoSources.impresiones);
@@ -202,7 +201,7 @@ export const handleRoute = () => {
                                 handleRoute();
                                 return;
                             case "informacion":
-                                subcontainer.innerHTML += "<h3>Información</h3>";
+                                subcontainer.innerHTML += InformationComponent(InformationData.videos);
                                 break;
                             case "videos":
                                 subcontainer.innerHTML += VideosRender(videoSources.videos);
@@ -235,7 +234,7 @@ export const handleRoute = () => {
                                 handleRoute();
                                 return;
                             case "informacion":
-                                subcontainer.innerHTML += "<h3>Información</h3>";
+                                subcontainer.innerHTML += InformationComponent(InformationData.prototipos);
                                 break;
                             case "videos":
                                 subcontainer.innerHTML += VideosRender(videoSources.prototipos);

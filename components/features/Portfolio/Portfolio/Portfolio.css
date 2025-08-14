@@ -80,7 +80,6 @@
 .portfolio__project__card__button {
     background-color: var(--color__primario);
     color: var(--color__secundario);
-    padding: var(--spacing__sm) var(--spacing__md);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -90,6 +89,13 @@
 
 .portfolio__project__card__button:hover {
     filter: brightness(1.3);
+}
+
+.portfolio__project__card__a {
+    width: 100%;
+    height: 100%;
+    padding: var(--spacing__sm) var(--spacing__md);
+    display: inline-block;
 }
 
 @media screen and (max-width: 375px) {
