@@ -1,12 +1,3 @@
-/*
-const videos = [
-  { name: "Video 1", link: "https://example.com/video1" },
-  { name: "Video 2", link: "https://example.com/video2" },
-  { name: "Video 3", link: "https://example.com/video3" },
-];
-
-*/
-
 export const VideosRender = (videos) => {
   const videoList = videos
     .map(
@@ -22,7 +13,7 @@ export const VideosRender = (videos) => {
     <div class="project__videos__container">
       <h3>Videos relacionados</h3>
       <ul class="video__list">
-        ${videoList}
+        ${videoList.length > 0 ? videoList : "<p>No hay videos a mostrar por el momento</p>"}
       </ul>
     </div>
   `;

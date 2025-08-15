@@ -99,7 +99,7 @@
 }
 
 @media screen and (max-width: 375px) {
-    .portfolio__project__card__button {
-        padding: var(--spacing__xs);
+    .portfolio__container {
+        padding: var(--spacing__lg) var(--spacing__md);
     }
 }
