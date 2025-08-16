@@ -9,7 +9,7 @@ import { VideosRender } from "/components/features/Portfolio/Videos/Videos.mjs";
 import { videoSources } from "/data/videos.mjs";
 import { iniciarCarrousel } from "/components/features/Home/HomeCarrouselController/HomeCarrouselController.mjs";
 import { InformationComponent } from "/components/features/Portfolio/Informacion/Informacion.mjs";
-
+import { ErrorPage } from "/pages/ErrorPage/ErrorPage.mjs";
 
 export const handleRoute = () => {
     let route = window.location.hash;
@@ -252,7 +252,7 @@ export const handleRoute = () => {
             }
             break;
         default:
-            main.innerHTML = "<h1>404: Página no encontrada</h1>";
+            main.innerHTML = ErrorPage();
             break;
     }
 }
