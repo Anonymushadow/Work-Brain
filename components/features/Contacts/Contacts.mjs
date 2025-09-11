@@ -1,4 +1,5 @@
 import { contactData } from "/data/ContactData.js";
+import { Imagenes } from "../../../../data/Imagenes.js";
 
 export const iniciarContacto = () => {
         const nameInput = document.querySelector(".contacts__form__name");
@@ -43,7 +44,7 @@ export const ContactComponente = () => {
                     </div>    
                 </div>
                 <div class="contacts__image__container">
-                    <img class="contacts__image" src="/public/images/Contacts/contacts_image.PNG" />
+                    <img class="contacts__image" src="${Imagenes.contacts.background}" />
                 </div>
             </div>
         </div>

@@ -31,5 +31,7 @@ export const Imagenes = {
         `${base}/About/cecilia_image.png`,
     ],
     portfolio: {},
-    contacts: {}
+    contacts: {
+        background: `${base}/Contacts/contacts_image.jpeg`
+    }
 }
