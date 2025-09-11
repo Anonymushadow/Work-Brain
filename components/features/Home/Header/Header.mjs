@@ -7,6 +7,7 @@ export const HomeHeader = ()=> {
             <div class="home__header__presentation__container">
                 <h1 class="home__header__presentation__title">Bienvenidos a</h1> 
                 <h1 class="home__header__presentation__title">WORK@BRAIN</h1>
+                <h3>Tecnología biónica, al servicio de todos los seres vivos</h3>
                 <button class="home__header__presentation__button"><a href="#/about">Conocenos</a></button>
             </div>
         </div>
