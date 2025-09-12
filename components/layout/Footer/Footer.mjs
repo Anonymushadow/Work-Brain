@@ -6,7 +6,7 @@ export const Footer = ()=> {
                 <strong>
                     <a 
                         class="footer__legal__credits__link" 
-                        href="https://death-wolf-company.netlify.app/"
+                        href="https://deathwolfcompany.com.ar/"
                         target="_blank"
                         data-text="Death Wolf Company"
                     >
