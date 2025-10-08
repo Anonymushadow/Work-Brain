@@ -5,6 +5,7 @@
     background: rgba(255, 2255, 255, .6);
     padding: var(--spacing__md);
     gap: var(--spacing__sm);
+    margin: var(--spacing__sm) 0 0 0;
 }
 
 .about__quienes__somos__title__container,

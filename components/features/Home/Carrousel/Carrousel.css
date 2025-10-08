@@ -4,6 +4,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 0 0 var(--spacing__sm) 0;
 }
 
 .home__carrousel__container {
